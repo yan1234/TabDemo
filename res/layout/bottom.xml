@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#000" >
+    
+    <LinearLayout 
+        android:id="@+id/id_tab1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <ImageView 
+            android:id="@+id/id_tab_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/one_normal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:textColor="#fff"
+            android:text="第一个"/>
+               
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <ImageView 
+            android:id="@+id/id_tab_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/two_normal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:text="第二个"
+            android:textColor="#fff"/>
+               
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <ImageView 
+            android:id="@+id/id_tab_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/three_normal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:textColor="#fff"
+            android:text="第三个"/>
+               
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <ImageView 
+            android:id="@+id/id_tab_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/four_normal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:textColor="#fff"
+            android:text="第四个"/>
+               
+    </LinearLayout>
+    
+
+</LinearLayout>
